@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #d87a7a, #00a0b5);
+    color: #000000;
+    padding: 20px;
+    
+}
+
+
+header {
+    
+    background-color: #ffffff; 
+    color: rgb(0, 96, 198);
+    padding: 20px;
+    
+    
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+header p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #868686; 
+    margin-bottom: 15px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+.left {
+    text-align: left;
+    color: #000000; 
+}
+
+.center {
+    text-align: center;
+    flex-grow: 1;
+    color: #000000; 
+}
+
+.right {
+    text-align: right;
+    color: #000000; 
+    padding-right: 10%;
+}
+
+
+
+section {
+    background: #ffffff;
+    
+    
+    padding-bottom: 10px;
+    padding-right: 10px;   
+}
+
+.section-wrapper {
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+
+.half1{
+    padding-left: 40px;
+    width: 65%;
+}
+.half2{
+    width: 35%;
+    
+}
+
+section h2 {
+    font-size: 2em;
+    color: #0060c6;
+    border-bottom: 2px solid #0060c6; 
+}
+section h3 { 
+    font-size: 1.2em;
+    line-height: 1cm;
+    font-weight: bold;
+}
+
+section ul {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #000000;
+}
+
+section h4{
+    font-weight: lighter;
+    font-style: italic;
+}
+section p{
+    font-size: 1.0em;
+    font-weight: lighter;
+    line-height: 1cm;
+}
+
+
+
